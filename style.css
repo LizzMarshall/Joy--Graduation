@@ -12,3 +12,36 @@
     color: #003f88;
 }
 /* top-bar stylings */
+.btn-custom{
+    background-color: #003f88;
+    color: #ffffff;
+    font-weight: 500;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 0px!important;
+    
+}
+.btn-custom:hover{
+    background-color:#72abec ;
+    color: #ffffff;
+}
+
+/* pricing starts */
+.pricing{
+    /* padding-top: 100px;
+    padding-bottom: 100px; */
+    background: linear-gradient(45deg, #003f88, #72abec, #bfd8f3), url(./Images/44.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.pricing .card{
+    border-top: 5px solid 003f88;
+
+
+}
+.pricing .card.recommend .btn-custom{
+    background-color: #ffffff;
+    color: #003f88;
+}
+/* pricing stylings */
